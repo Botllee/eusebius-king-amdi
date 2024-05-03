@@ -1,0 +1,22 @@
+{
+    "name": "KING-AMDI-AI",
+    "description": "KING-AMDI-AI WA bot, Created by Eusebius",
+    "logo": "https://telegra.ph/file/cb0ca30c5924b296bd332.jpg",
+    "repository": "https://github.com/Botllee/KING-AMDI-AI-pair",
+    "keywords": ["KING-AMDI-AI"],
+    "success_url": "/", 
+    "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } ],
+    "env": {      
+      "PORT": {
+        "description": "Port for web app.4000,5000,3000... any!",
+        "value": "5000",
+        "required": false 
+      },
+      "MESSAGE": {
+        "description": "set session id conformation message",
+        "value": "",
+        "required": false 
+      }
+    }   
+
+}
